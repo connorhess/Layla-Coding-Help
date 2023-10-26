@@ -6,8 +6,6 @@ def adding_up_to(lst, index):
     else:
         return lst[index] + adding_up_to(lst, index-1)
 
-
-
 lst_str = input("Enter a list of numbers: ")
 lst = ast.literal_eval(lst_str)
 
